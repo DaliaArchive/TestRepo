@@ -1,0 +1,158 @@
+# ~/.aws/config
+
+[preview]
+cloudfront = true
+
+[default]
+region = eu-west-1
+
+
+[profile channels-production]
+role_arn = arn:aws:iam::228189142097:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile channels-staging]
+role_arn = arn:aws:iam::520282374172:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile databucketplatform-production]
+role_arn = arn:aws:iam::994344600047:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile databucketplatform-staging]
+role_arn = arn:aws:iam::416069603371:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile dataconsolidator-production]
+role_arn = arn:aws:iam::635048414755:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile dataconsolidator-staging]
+role_arn = arn:aws:iam::853681658500:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile devops-production]
+role_arn = arn:aws:iam::796651604012:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile devops-staging]
+role_arn = arn:aws:iam::288493304372:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile dsptempletor-production]
+role_arn = arn:aws:iam::244273354084:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile dsptempletor-staging]
+role_arn = arn:aws:iam::568999539133:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile latana-production]
+role_arn = arn:aws:iam::058254969702:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile latana-staging]
+role_arn = arn:aws:iam::600571812241:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile latanaapp-production]
+role_arn = arn:aws:iam::530062069049:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile latanaapp-staging]
+role_arn = arn:aws:iam::142471704265:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile latanametrics-production]
+role_arn = arn:aws:iam::253376248060:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile latanametrics-staging]
+role_arn = arn:aws:iam::477122539051:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile liteplatform-production]
+role_arn = arn:aws:iam::303924220037:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile liteplatform-staging]
+role_arn = arn:aws:iam::917802050676:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile mrpengine-production]
+role_arn = arn:aws:iam::906778331050:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile mrpengine-staging]
+role_arn = arn:aws:iam::019521927547:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile pixeltracker-production]
+role_arn = arn:aws:iam::257271087628:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile pixeltracker-staging]
+role_arn = arn:aws:iam::396350142357:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile reportsdashboardv3-production]
+role_arn = arn:aws:iam::469672773206:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile reportsdashboardv3-staging]
+role_arn = arn:aws:iam::018195563230:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile surveytranslator-production]
+role_arn = arn:aws:iam::182474725543:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile surveytranslator-staging]
+role_arn = arn:aws:iam::858299251349:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile targetgroupsgenerator-production]
+role_arn = arn:aws:iam::112977906541:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile targetgroupsgenerator-staging]
+role_arn = arn:aws:iam::736663659366:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile dalia-devops-production]
+role_arn = arn:aws:iam::229424175607:role/Administrators
+source_profile = default
+region = eu-west-1
+
+[profile dalia-devops-staging]
+role_arn = arn:aws:iam::274479288406:role/Administrators
+source_profile = default
+region = eu-west-1
