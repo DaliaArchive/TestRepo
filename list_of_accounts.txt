@@ -7,7 +7,7 @@ cloudfront = true
 region = eu-west-1
 
 
-[latana-master]
+[profile latana-master]
 region = eu-west-1
 
 
