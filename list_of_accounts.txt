@@ -7,6 +7,10 @@ cloudfront = true
 region = eu-west-1
 
 
+[latana-master]
+region = eu-west-1
+
+
 [profile channels-production]
 role_arn = arn:aws:iam::228189142097:role/Administrators
 source_profile = default
